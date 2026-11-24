@@ -1,0 +1,14 @@
+{
+  "name": "zombie-nvenidos-coop",
+  "version": "0.68.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

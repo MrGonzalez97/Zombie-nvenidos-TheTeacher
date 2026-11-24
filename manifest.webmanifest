@@ -1,0 +1,43 @@
+{
+  "id": "./",
+  "name": "Zombie-nvenidos Cooperativo v0.68",
+  "short_name": "Zombie-nvenidos",
+  "description": "Supervivencia zombi individual y cooperativa en tiempo real para Android, iPhone y PC",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
+  "background_color": "#121812",
+  "theme_color": "#121b16",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Instalar en celular",
+      "short_name": "Instalar",
+      "url": "./instalar.html",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
